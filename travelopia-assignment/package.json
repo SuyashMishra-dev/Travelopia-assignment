@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "npx nodemon server & npm start",
+    "dev": "npx nodemon server",
     "clear": "npx kill-port 9000 & npx kill-port 3000",
     "build": "react-scripts build",
     "test": "react-scripts test",
