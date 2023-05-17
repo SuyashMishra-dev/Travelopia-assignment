@@ -55,7 +55,6 @@ export default function FormDetails() {
   const [errors, setErrors] = useState({});
 
   const handleChange = (evn, isNum) => {
-    console.log("evn--", evn?.target?.name, evn?.target?.value);
     setUserDetails({
       ...userDetails,
       [evn.target.name]: isNum ? Number(evn.target.value) : evn.target.value,
@@ -85,7 +84,6 @@ export default function FormDetails() {
         setOpen(true);
       }
     }
-    console.log(validate(userDetails));
   };
 
   return (
@@ -205,7 +203,6 @@ export default function FormDetails() {
               label="Select Destination"
               name="destination"
               onChange={(event) => {
-                console.log("evn---se", event);
                 handleChange(event);
               }}
               sx={{
