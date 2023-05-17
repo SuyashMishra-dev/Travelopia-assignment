@@ -1,45 +1,90 @@
-# Getting Started with The Project
+# Travelopia
 
-## clone the repo
+## Demo Link
 
-[https://github.com/SuyashMishra-dev/Travelopia-assignment.git]
+- [Travelopia](https://travelopia-service.netlify.app)
 
-###
+## Table of Contents
 
-Go to the Directory:
-`cd travelopia-assignment`
+- [Travelopia](#travelopia)
+- [Features](#features)
+- [Tech](#tech)
+- [Installation](#installation)
+- [Contacts](#contacts)
+- [License](#license)
 
-### To install all dependencies
+## Features
 
-`npm install --save`
+- Create travel plan
+  ![Create Details](https://raw.githubusercontent.com/SuyashMishra-dev/Certa/main/create.png?token=GHSAT0AAAAAACCKHYENJTEL6QL5WZNJWO74ZDFFBQQ "Create Details")
 
-### To start the project
+- User can see all travel plans
+  ![All Plans Listing](https://raw.githubusercontent.com/SuyashMishra-dev/Certa/main/listing.png?token=GHSAT0AAAAAACCKHYEMWX5BICOH7LTDHK56ZDFFOTQ "All Plans Listing")
 
-#### First run backend project
+## Tech
 
-`npx nodemon .\server\index.js`
+- [ReactJS] - HTML enhanced for web apps!
+- [node.js] - evented I/O for the backend
+- [express] - NodeJs Framework
+- [MongoDB] - NoSQL database
+- [Render] - Hosting
 
-#### Start react app server
+## Prerequisites
 
-`npm run start`
+The prerequisites that you have to install before using the app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```sh
+npm install --save
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Travelopia [Node.js](https://nodejs.org/) v14+ to run.
+Install the dependencies and devDependencies and start the server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Start backend server
 
-### `npm run build`
+```sh
+cd travelopia-assignment
+npm run dev
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Start frontend server
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm run start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Testing
+
+- command to run tests in terminal
+
+```sh
+npm run test
+```
+
+Create Build
+
+- command to run tests in terminal
+
+```sh
+npm run build
+```
+
+## Contacts
+
+- Suyash Mishra [LinkedIn-Suyash] -[<suyashmishra143143@gmail.com>]
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+[LinkedIn-Suyash]: https://www.linkedin.com/in/suyash-mishra00/
+[MongoDB]: https://www.mongodb.com/
+[node.js]: http://nodejs.org
+[Jest]: https://jestjs.io/
+[React-testing-Library]: https://testing-library.com/docs/react-testing-library/intro/
+[express]: http://expressjs.com
+[ReactJS]: http://reactjs.org
