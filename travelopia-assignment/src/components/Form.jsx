@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import {
   FormControl,
@@ -16,7 +16,6 @@ import {
 } from "@mui/material";
 import { makeStyles } from "@mui/styles";
 import validate from "./validate";
-import { getData } from "../api/get";
 import { apiUrlConfig } from "../api/config";
 import { postData } from "../api/post";
 import { counttryList } from "../view/LandingPage/config";

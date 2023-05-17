@@ -1,7 +1,8 @@
 import axios from "axios";
 import { apiUrlConfig } from "./config";
 
-const env = "local";
+// change this env value from `dev` to `local`
+const env = "dev";
 
 export const postData = (url = "", data) => {
   const { baseUrl } = apiUrlConfig[env];

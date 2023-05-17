@@ -5,6 +5,6 @@ export const apiUrlConfig = {
     baseUrl: "http://localhost:5000/api/v1",
   },
   dev: {
-    baseUrl: "http://localhost:5000/api/v1",
+    baseUrl: "https://travelopia-backend-service.onrender.com/api/v1",
   },
 };
