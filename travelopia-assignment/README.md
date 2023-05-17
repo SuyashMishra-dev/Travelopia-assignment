@@ -16,7 +16,7 @@
 ## Features
 
 - Create travel plan
-  ![Create Details](https://raw.githubusercontent.com/SuyashMishra-dev/Certa/main/create.png?token=GHSAT0AAAAAACCKHYENJTEL6QL5WZNJWO74ZDFFBQQ "Create Details")
+  ![Create Details](https://raw.githubusercontent.com/SuyashMishra-dev/Certa/main/create.png?token=GHSAT0AAAAAACCKHYEMU6HB3PYIUW4QCTR4ZDFFTEQ "Create Details")
 
 - User can see all travel plans
   ![All Plans Listing](https://raw.githubusercontent.com/SuyashMishra-dev/Certa/main/listing.png?token=GHSAT0AAAAAACCKHYEMWX5BICOH7LTDHK56ZDFFOTQ "All Plans Listing")
